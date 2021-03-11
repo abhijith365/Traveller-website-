@@ -1,0 +1,266 @@
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+#intro {
+    height: 100%;
+    width: 100%;
+    background: url("image/airplane.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -11;
+    overflow: hidden;
+}
+
+/* --- Navbar ---- */
+.bg-dark {
+    color: transparent;
+    /* #55E6C1 */
+}
+
+.navbar {
+    padding: 0 10%;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+}
+
+.navbar-brand span {
+    color: rgb(160, 23, 23);
+    font-size: 2.8rem;
+    padding-left: .5rem;
+}
+
+/* landing page start here */
+
+div h1 {
+    font-weight: 400;
+    color: white;
+    padding: 35vh 0 20vh 18vw;
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 3rem;
+    z-index: 1;
+}
+
+/* -- form start here -- */
+.form {
+    background-color: white;
+    width: 55%;
+
+
+}
+
+#form {
+    padding: 8% 0 2% 15%;
+}
+
+.top-line {
+    width: 100%;
+    height: .7rem;
+    background-color: #55E6C1;
+    margin-bottom: 1rem;
+}
+
+.inside-form {
+    padding: 0 2rem;
+}
+
+input,
+select {
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 5vh;
+}
+
+label {
+    line-height: .5rem;
+    font-size: .9rem;
+}
+
+.btn-md {
+
+    margin: .5rem auto 1rem;
+    border: none;
+    background-color: #5ee9c6;
+    color: black;
+
+}
+
+.inside-form h2 {
+    font-size: 1.5rem;
+}
+
+select,
+input::placeholder {
+    font-size: .8rem;
+}
+
+/* destination */
+
+#destination {
+    padding: 0 5%;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.jumbotron .col-12 p {
+    margin: 1rem auto 4rem;
+}
+
+.card-deck-one {
+    margin-bottom: 2rem;
+}
+
+/* travels */
+#travel {
+    padding: 0 10%;
+    background-color: #55E6C1;
+    color: white;
+}
+
+.narrow-one .col-12 h2 {
+    font-weight: 500;
+    padding: 5rem 0 .8rem;
+
+}
+
+.narrow-one .col-12 p {
+    font-size: 1rem;
+    padding-bottom: 4rem;
+}
+
+.narrow-one .feature h5 {
+    margin: 1.5rem 0;
+}
+
+.narrow-one .feature p {
+    font-size: .9rem;
+    margin-bottom: 6rem;
+    line-height: 1.5rem;
+}
+
+.img-one {
+    background: url(image/img-one.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.img-one h3 {
+    padding: 5rem 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.narrow-two {
+    padding: 0 10%;
+}
+
+.narrow-two .col-12 h2 {
+    padding: 5rem 0 1rem;
+}
+
+.narrow-two .col-12 p {
+    padding: 0 0 5rem;
+}
+
+.narrow-two .col-md-3 h3 {
+    color: #55E6C1;
+    padding-bottom: .7rem;
+}
+
+.narrow-two .col-md-3 {
+    padding-bottom: 5rem;
+}
+
+
+
+.narrow-three {
+    background-color: #2a96dd;
+    color: white;
+    padding-bottom: 5rem;
+}
+
+.narrow-three .col-12 h2 {
+    padding: 5rem 0 1rem;
+    font-weight: 400;
+}
+
+.narrow-three a,
+.narrow-three input {
+    width: 20%;
+    height: 6vh;
+margin: 1rem;
+
+
+}
+.narrow-three a {
+    background-color: #5ee9c6;
+}
+
+
+
+.narrow-three .col-md-6 {
+    padding-bottom: 7rem;
+}
+
+
+
+#contact {
+    padding: 0 10%;
+}
+
+footer .row {
+    padding: 3rem 0 3rem
+}
+
+footer .col-md-3 p,
+footer .col-md-2 p {
+    color: #3cffce;
+
+}
+
+footer .col-md-3,
+footer .col-md-2,
+footer .col-md-4 {
+    padding-bottom: 2rem;
+}
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 1rem;
+}
+
+.hr {
+    color: black;
+    font-size: 1rem;
+    padding-bottom: .5rem;
+    font-family: monospace;
+}
+
+
+
+/*=========== BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) device (portrait phones, less than 576)
+no media query since this is the default in Bootstrap
+
+small (sm) devices (landscape phone, 576px and up)
+@media (min-width: 768px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) divices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Etra (xl) large device (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

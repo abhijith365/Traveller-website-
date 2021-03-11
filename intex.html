@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Travaler. bs4</title>
+</head>
+
+<body>
+
+    <!-- Home Section Start here -->
+    <header>
+        <div class="home">
+            <nav class="navbar navbar-custom navbar-expand-lg  navbar-dark fixed-top">
+                <a href="#intro" class="navbar-brand ">travaler<span class="dot">.</span></a>
+
+                <button class="navbar-toggler" type="button" data-target="#navBarNav" data-toggle="collapse"
+                    aria-expanded="false" aria-controls="navBarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navBarNav">
+
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item"><a class="nav-link" href="#destination">Destination</a></li>
+
+                        <li class="nav-item"><a class="nav-link" href="#travel">Travel</a></li>
+
+                        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+            </nav>
+
+
+
+            <div class="landing-page">
+                <div id="intro" class="view">
+
+                    <div class="mask">
+
+                        <div class="row">
+                            <div class="col-lg-6 text-center">
+                                <h1>
+                                    Planing Trip To<br>
+                                    Anywhere in The<br>
+                                    World?
+                                </h1>
+                            </div>
+                            <div class="col-lg-6" id="form">
+
+                                <div class="form">
+
+                                    <div class="top-line"></div>
+
+                                    <div class="inside-form">
+                                        <h2>Book Your Trip</h2>
+
+                                        <form action="Post" class="form-block">
+
+                                            <label for="name">Your Name</label><br>
+                                            <input type="text" name="name"><br>
+
+                                            <label for="email">Your Email</label><br>
+                                            <input type="email" name="email" id=""><br>
+
+                                            <label for="activities">Activities</label><br>
+
+                                            <select name="activities" id="">
+                                                <option value="-1">Hiking</option>
+
+                                                <option value="1">Running</option>
+
+                                                <option value="2">Cycling</option>
+
+                                                <option value="3">Swimming</option>
+
+                                            </select><br>
+
+                                            <label for="Destination">Destination</label><br>
+
+                                            <select name="Destination" id="">
+
+                                                <option value="-1">Philippines</option>
+
+                                                <option value="1">India</option>
+
+                                                <option value="2">France</option>
+
+                                                <option value="3">UAE</option>
+
+                                            </select><br>
+
+                                            <label for="date">Date Travel</label><br>
+
+                                            <input type="text" name="date" value="" placeholder=""><br>
+                                            <div class="btn-1 text-center">
+                                                <a class="btn btn-md text-center">Submit</a>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--/.Mask-->
+        </div>
+    </header>
+
+    <main>
+        <section id="destination">
+
+            <div class="jumbotron">
+                <div class="col-12 text-center">
+                    <h2>Most Popular Destination</h2>
+                    <p>Dignissimos asperires viae velit veniam totam fuga molestias accusamus alias<br>autem providet.
+                        Odit ab aliquam dolor eius.</p>
+                </div>
+                <div class="card-deck-one">
+                    <div class="card-deck text-center">
+                        <div class="card col-md-4 col-sm-12">
+                            <img class="card-img-top" src="image/paris.jpg" alt="paris">
+                            <div class="card-body">
+                                <h5 class="card-title">Paris</h5>
+                                <p class="card-text">Far far away behind the word moutains.<br>
+                                    far from the countries Vokalia.</p>
+                                <a href="#" class="btn btn-dark">Schedule a Trip</a>
+                            </div>
+                        </div>
+                        <div class="card col-md-4 col-sm-12">
+                            <img class="card-img-top" src="image/mali.jpg" alt="Mali">
+                            <div class="card-body">
+                                <h5 class="card-title">Mali</h5>
+                                <p class="card-text">Far far away behind the word moutains.<br>
+                                    far from the countries Vokalia.</p>
+                                <a href="#" class="btn btn-dark">Schedule a Trip</a>
+                            </div>
+                        </div>
+                        <div class="card col-md-4 col-sm-12">
+                            <img class="card-img-top" src="image/indonasia.jpg" alt="Indonasia">
+                            <div class="card-body">
+                                <h5 class="card-title">Indonasia</h5>
+                                <p class="card-text">Far far away behind the word moutains.<br>
+                                    far from the countries Vokalia.</p>
+                                <a href="#" class="btn btn-dark">Schedule a Trip</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card-deck-two">
+                    <div class="card-deck text-center">
+                        <div class="card col-md-4 col-sm-12">
+                            <img class="card-img-top" src="image/india.jpg" alt="India">
+                            <div class="card-body">
+                                <h5 class="card-title">India</h5>
+                                <p class="card-text">Far far away behind the word moutains.<br>
+                                    far from the countries Vokalia.</p>
+                                <a href="#" class="btn btn-dark">Schedule a Trip</a>
+                            </div>
+                        </div>
+                        <div class="card col-md-4 col-sm-12">
+                            <img class="card-img-top" src="image/malasia.jpg" alt="Malasia
+                            ">
+                            <div class="card-body">
+                                <h5 class="card-title">Malasia
+
+                                </h5>
+                                <p class="card-text">Far far away behind the word moutains.<br>
+                                    far from the countries Vokalia.</p>
+                                <a href="#" class="btn btn-dark">Schedule a Trip</a>
+                            </div>
+                        </div>
+                        <div class="card col-md-4 col-sm-12">
+                            <img class="card-img-top" src="image/japan.jpg" alt="Japan">
+                            <div class="card-body">
+                                <h5 class="card-title">Japan</h5>
+                                <p class="card-text">Far far away behind the word moutains.<br>
+                                    far from the countries Vokalia.</p>
+                                <a href="#" class="btn btn-dark">Schedule a Trip</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="travel">
+
+            <div class="narrow narrow-one text-center">
+                <div class="col-12">
+                    <h2>How it Works</h2>
+                    <p>Dignissimos asperires viae velit veniam totam fuga molestias accusamus alias <br>autem providet.
+                        Odit ab aliquam dolor eius.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="feature">
+                            <h3 class="r1">1</h3>
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <p>Dignissimos asperires vitae veit vveniam<br>
+                                totam fuga montestas accusamess<br> alias autem
+                                provident, Odit ab aliquram dolcer
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature">
+                            <h3>2</h3>
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <p>Dignissimos asperires vitae veit vveniam<br>
+                                totam fuga montestas accusamess<br> alias autem
+                                provident, Odit ab aliquram dolcer
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="feature">
+                            <h3>3</h3>
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                            <p>Dignissimos asperires vitae veit vveniam<br>
+                                totam fuga montestas accusamess<br> alias autem
+                                provident, Odit ab aliquram dolcer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="service-bottom text-center">
+            <div class="img-one">
+                <h3>We have high quality services that you will <br>
+                    surely love!</h3>
+            </div>
+        </div>
+
+
+        <section class="pricing">
+
+            <div class="narrow narrow-two text-center">
+                <div class="col-12">
+                    <h2>Our Success</h2>
+                    <p>ignissimos asperires vitae veit vveniam
+                        totam fuga montestas accusamess alias<br> autem
+                        provident, Odit ab aliquram dolcer elus.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>196</h3>
+                        <h6>DESTINATION</h6>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>97</h3>
+                        <h6>HOTEL</h6>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>12402</h3>
+                        <h6>TRAVELERS</h6>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>12202</h3>
+                        <h6>HAPPY CUSTOMERS</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sub">
+            <div class="narrow narrow-three text-center">
+                <div class="col-12">
+                    <h2>Subscribe</h2>
+                    <p>Be the first to know about the new templates.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="email" name="email" id="" placeholder="Your Email">
+                    
+                   
+                        <a href="#" class="btn btn-primary">SUBSCRIBE</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer id="contact">
+
+        <div class="row ">
+
+            <div class="col-md-4 ">
+                <h6>ABOUT US</h6>
+                <P>Lorem ipsum dolor sit amet consectetur<br>
+                    adipisicing elit. Repudiandae unde ipsum saepe <br>
+                    tempore perferendis optio enim quos vol<br>
+                    uptate adipisci, reprehenderit dolores libero<br>
+                    illum expedita eius! Lorem ipsum dolor</P>
+            </div>
+            <div class="col-md-2">
+                <h6>DESTINATION</h6>
+                <P>Europe<br>
+                    Australia<br>
+                    India<br>
+                    Canand<br>
+                    Dubai</P>
+            </div>
+            <div class="col-md-3">
+                <h6>HOTEL</h6>
+                <P>LUXE Hotel<br>
+                    Italy 5 star hotel<br>
+                    Dubai hotel<br>
+                    Canand hotel<br>
+                    BoraBora Hotel</P>
+            </div>
+            <div class="col-md-3">
+                <h6>GET IN TOUCH</h6>
+                <p>
+                    <i class="fas fa-phone"></i>
+                    &nbsp; +1234567890
+                </p>
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    &nbsp; info@gmail.com
+                </p>
+                <p>
+                    <i class="fas fa-comment-alt"></i>
+                    &nbsp; Live Chat
+                </p>
+            </div>
+        </div>
+
+    <div class="hr text-center">
+        <hr class="socket">
+        &copy; Abhijith Themes.
+    </div>
+    </footer>
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+</body>
+
+</html>
