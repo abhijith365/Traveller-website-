@@ -21,6 +21,13 @@ body {
     /* #55E6C1 */
 }
 
+.navbar-fixed-top.scrolled {
+    background-color: rgb(34, 29, 29) !important;
+    transition: background-color 200ms linear;
+    top: 0;
+    right: 0;
+}
+
 .navbar {
     padding: 0 10%;
 }
